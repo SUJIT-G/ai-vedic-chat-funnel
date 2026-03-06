@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live AI Vedic Astrologer Chat – Free Astrology Reading Online</title>
+    <meta name="description" content="Chat with an AI Vedic astrologer instantly. Get accurate love, career, and horoscope insights with a free 2 minute astrology consultation.">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://stellarinsight.in/ai-vedic-astrologer-live-chat/" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- JSON-LD Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "Live AI Vedic Astrologer Chat",
+      "description": "Chat with an AI Vedic astrologer instantly. Get accurate love, career, and horoscope insights with a free 2 minute astrology consultation.",
+      "url": "https://stellarinsight.in/ai-vedic-astrologer-live-chat/",
+      "offers": {
+        "@type": "AggregateOffer",
+        "lowPrice": "0",
+        "highPrice": "189",
+        "priceCurrency": "INR"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is the AI astrologer accurate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, our AI is trained on vast amounts of authentic Vedic astrology texts, ensuring highly accurate and personalized insights based on planetary alignments."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does AI Vedic astrology work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It analyzes your birth details (if provided) and exact planetary positions using an ultra-fast backend to generate real-time astrological predictions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is my chat private?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Your chat sessions and personal details are fully encrypted and kept 100% strictly confidential."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <style>
+        /* CSS RESET & VARIABLES */
+        :root {
+            --bg-dark: #1e1b4b;
+            --bg-mid: #312e81;
+            --bg-light: #4338ca;
+            --cta-green: #22c55e;
+            --cta-hover: #16a34a;
+            --highlight: #f59e0b;
+            --secondary: #ec4899;
+            --text-main: #f8fafc;
+            --text-muted: #cbd5e1;
+            --glass-bg: rgba(255, 255, 255, 0.05);
+            --glass-border: rgba(255, 255, 255, 0.1);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, var(--bg-dark) 0%, var(--bg-mid) 50%, var(--bg-light) 100%);
+            background-attachment: fixed;
+            color: var(--text-main);
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
+
+        /* Cosmic Glow Background Elements */
+        .cosmic-glow {
+            position: fixed;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(236, 72, 153, 0.15) 0%, transparent 70%);
+            top: -200px;
+            left: -200px;
+            z-index: -1;
+            pointer-events: none;
+        }
+        .cosmic-glow-2 {
+            position: fixed;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(34, 197, 94, 0.1) 0%, transparent 70%);
+            bottom: -100px;
+            right: -100px;
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        h1, h2, h3, h4 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* UTILITIES */
+        .glass-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid var(--glass-border);
+            border-radius: 20px;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+            padding: 2rem;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: none;
+            font-size: 1rem;
+        }
+
+        .btn-primary {
+            background: var(--cta-green);
+            color: #fff;
+            box-shadow: 0 4px 15px rgba(34, 197, 94, 0.4);
+        }
+        .btn-primary:hover {
+            background: var(--cta-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(34, 197, 94, 0.6);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: #fff;
+            border: 2px solid var(--secondary);
+            box-shadow: 0 4px 15px rgba(236, 72, 153, 0.2);
+        }
+        .btn-secondary:hover {
+            background: var(--secondary);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(236, 72, 153, 0.4);
+        }
+
+        .text-center { text-align: center; }
+        .text-highlight { color: var(--highlight); }
+        .text-gradient {
+            background: linear-gradient(to right, #fff, #cbd5e1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* SCROLL REVEAL */
+        .reveal {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: all 0.8s cubic-bezier(0.5, 0, 0, 1);
+        }
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* HEADER / NAVBAR */
+        header {
+            padding: 20px 0;
+            border-bottom: 1px solid var(--glass-border);
+            margin-bottom: 40px;
+        }
+        .nav-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo { font-family: 'Poppins'; font-size: 1.5rem; font-weight: 700; color: #fff; text-decoration: none;}
+        .logo span { color: var(--highlight); }
+
+        /* HERO SECTION */
+        .hero {
+            padding: 60px 0 100px;
+            text-align: center;
+        }
+        .social-proof-badge {
+            display: inline-flex;
+            align-items: center;
+            background: rgba(245, 158, 11, 0.15);
+            border: 1px solid rgba(245, 158, 11, 0.3);
+            color: var(--highlight);
+            padding: 8px 16px;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            margin-bottom: 24px;
+            animation: pulse 2s infinite;
+        }
+        .hero h1 {
+            font-size: clamp(2.5rem, 5vw, 4.5rem);
+            line-height: 1.1;
+            margin-bottom: 24px;
+        }
+        .hero p {
+            font-size: clamp(1.1rem, 2vw, 1.25rem);
+            color: var(--text-muted);
+            max-width: 700px;
+            margin: 0 auto 40px;
+        }
+        .hero-btns {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        /* PRICING CARD SECTION */
+        .booking-section { margin-bottom: 100px; }
+        .booking-card {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .form-group { margin-bottom: 20px; }
+        .form-group label {
+            display: block; margin-bottom: 8px; font-weight: 500; font-size: 0.9rem;
+        }
+        .form-control {
+            width: 100%; padding: 14px;
+            background: rgba(0,0,0,0.2);
+            border: 1px solid var(--glass-border);
+            border-radius: 10px;
+            color: #fff; font-family: 'Inter';
+            outline: none; transition: all 0.3s;
+        }
+        .form-control:focus { border-color: var(--highlight); }
+        
+        .plan-grid {
+            display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 30px;
+        }
+        .plan-item {
+            background: rgba(0,0,0,0.2);
+            border: 2px solid var(--glass-border);
+            padding: 15px; border-radius: 12px;
+            cursor: pointer; text-align: center;
+            transition: all 0.3s;
+        }
+        .plan-item:hover { background: rgba(255,255,255,0.05); }
+        .plan-item.active {
+            border-color: var(--highlight);
+            background: rgba(245, 158, 11, 0.1);
+        }
+        .plan-time { font-family: 'Poppins'; font-weight: 600; font-size: 1.1rem; }
+        .plan-price { font-size: 0.9rem; color: var(--text-muted); }
+        .plan-item.active .plan-price { color: var(--highlight); }
+
+        /* LIVE CHAT DEMO */
+        .demo-section { padding: 80px 0; }
+        .demo-grid {
+            display: grid; grid-template-columns: 1fr 1.5fr; gap: 40px; align-items: center;
+        }
+        .ai-avatar {
+            text-align: center;
+        }
+        .avatar-img {
+            width: 200px; height: 200px;
+            background: linear-gradient(45deg, var(--bg-mid), var(--secondary));
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 5rem;
+            box-shadow: 0 0 40px rgba(236, 72, 153, 0.4);
+        }
+        
+        .chat-ui {
+            background: var(--glass-bg); border: 1px solid var(--glass-border);
+            border-radius: 16px; overflow: hidden;
+            display: flex; flex-direction: column; height: 400px;
+        }
+        .chat-header {
+            padding: 15px 20px; background: rgba(0,0,0,0.3); border-bottom: 1px solid var(--glass-border);
+            display: flex; justify-content: space-between; align-items: center;
+        }
+        .timer-badge {
+            background: rgba(236, 72, 153, 0.2); color: var(--secondary);
+            padding: 4px 12px; border-radius: 20px; font-size: 0.8rem; font-weight: 600;
+        }
+        .chat-body {
+            padding: 20px; flex-grow: 1; overflow-y: auto;
+            display: flex; flex-direction: column; gap: 15px;
+        }
+        .msg { max-width: 80%; padding: 12px 16px; border-radius: 16px; font-size: 0.95rem; }
+        .msg-ai {
+            background: rgba(255,255,255,0.1); border-bottom-left-radius: 4px; align-self: flex-start;
+        }
+        .msg-user {
+            background: var(--bg-light); border-bottom-right-radius: 4px; align-self: flex-end;
+        }
+        .chat-footer {
+            padding: 15px; border-top: 1px solid var(--glass-border);
+            display: flex; gap: 10px; background: rgba(0,0,0,0.2);
+        }
+        .chat-input {
+            flex-grow: 1; padding: 10px 15px; border-radius: 50px; border: none;
+            background: rgba(255,255,255,0.1); color: #fff; outline: none;
+        }
+        .chat-send {
+            background: var(--cta-green); color: white; border: none;
+            width: 40px; height: 40px; border-radius: 50%; cursor: pointer;
+            display: flex; align-items: center; justify-content: center;
+        }
+
+        /* FEATURES GRID */
+        .features-section { padding: 80px 0; }
+        .section-title { text-align: center; margin-bottom: 50px; font-size: 2.5rem; }
+        .grid-3 {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;
+        }
+        .feature-card {
+            text-align: center; transition: transform 0.3s;
+        }
+        .feature-card:hover { transform: translateY(-10px); }
+        .icon-box {
+            width: 60px; height: 60px; border-radius: 15px;
+            background: rgba(255,255,255,0.1);
+            display: flex; align-items: center; justify-content: center;
+            margin: 0 auto 20px; font-size: 1.8rem;
+        }
+        .feature-card h3 { font-size: 1.2rem; margin-bottom: 10px; }
+        .feature-card p { color: var(--text-muted); font-size: 0.95rem; }
+
+        /* BENEFITS */
+        .benefits-section { padding: 80px 0; background: rgba(0,0,0,0.15); }
+
+        /* SOCIAL PROOF */
+        .testimonials { padding: 80px 0; }
+        .stars { color: var(--highlight); font-size: 1.2rem; margin-bottom: 15px; }
+        .testi-card p { font-style: italic; margin-bottom: 15px; }
+        .testi-card h4 { font-size: 1rem; color: var(--secondary); }
+
+        /* PRICING RECAP */
+        .pricing-recap { padding: 80px 0; text-align: center; }
+        .price-list {
+            list-style: none; max-width: 400px; margin: 0 auto 30px; padding: 0;
+            text-align: left; background: var(--glass-bg); padding: 30px; border-radius: 20px;
+            border: 1px solid var(--glass-border);
+        }
+        .price-list li {
+            padding: 15px 0; border-bottom: 1px solid rgba(255,255,255,0.1);
+            display: flex; justify-content: space-between; font-size: 1.1rem;
+        }
+        .price-list li:last-child { border-bottom: none; }
+        .price-list li span:last-child { font-weight: bold; color: var(--highlight); }
+
+        /* FAQ */
+        .faq-section { padding: 80px 0; max-width: 800px; margin: 0 auto; }
+        .accordion { margin-bottom: 15px; }
+        .accordion-header {
+            background: var(--glass-bg); border: 1px solid var(--glass-border);
+            padding: 20px; border-radius: 12px; cursor: pointer; font-family: 'Poppins';
+            font-weight: 600; display: flex; justify-content: space-between; align-items: center;
+        }
+        .accordion-content {
+            padding: 0 20px; max-height: 0; overflow: hidden; transition: max-height 0.3s ease;
+            color: var(--text-muted);
+        }
+        .accordion.active .accordion-content { padding: 20px; max-height: 200px; }
+        .accordion.active .accordion-header { border-color: var(--secondary); }
+        .chevron { transition: transform 0.3s; }
+        .accordion.active .chevron { transform: rotate(180deg); }
+
+        /* CTA SECTION */
+        .final-cta { padding: 100px 0; text-align: center; }
+        .final-cta h2 { font-size: 3rem; margin-bottom: 20px; }
+        .final-cta p { font-size: 1.2rem; color: var(--text-muted); margin-bottom: 40px; }
+
+        /* FOOTER */
+        footer {
+            padding: 40px 0; background: rgba(0,0,0,0.3); border-top: 1px solid var(--glass-border);
+            text-align: center; color: var(--text-muted); font-size: 0.9rem;
+        }
+        .footer-links { margin-bottom: 20px; }
+        .footer-links a { color: var(--text-muted); text-decoration: none; margin: 0 10px; }
+        .footer-links a:hover { color: #fff; }
+
+        /* ANIMATIONS */
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(245, 158, 11, 0.4); }
+            70% { box-shadow: 0 0 0 10px rgba(245, 158, 11, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(245, 158, 11, 0); }
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            .demo-grid { grid-template-columns: 1fr; }
+            .hero h1 { font-size: 2.2rem; }
+            .plan-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="cosmic-glow"></div>
+    <div class="cosmic-glow-2"></div>
+
+    <!-- HEADER COMPONENT -->
+    <header>
+        <div class="container nav-inner">
+            <a href="https://stellarinsight.in/ai-vedic-astrologer-live-chat/" class="logo">Stellar<span>Insight</span></a>
+        </div>
+    </header>
+
+    <!-- 1. HERO SECTION -->
+    <section class="hero container reveal">
+        <div class="social-proof-badge">
+            🔥 24 people checking their Kundali right now
+        </div>
+        <h1 class="text-gradient">Live AI Vedic Astrologer Chat<br>Consult the Cosmic Intelligence</h1>
+        <p>Get instant astrology guidance powered by advanced AI trained in authentic Vedic astrology. Unlock the secrets of your stars today.</p>
+        <div class="hero-btns">
+            <a href="#booking" class="btn btn-primary">Start Free Astrology Chat</a>
+            <a href="#demo" class="btn btn-secondary">See How It Works</a>
+        </div>
+    </section>
+
+    <!-- 2. SESSION PRICING SELECTION CARD -->
+    <section id="booking" class="booking-section container reveal">
+        <div class="glass-card booking-card">
+            <h3 class="text-center" style="margin-bottom: 20px; font-size: 1.5rem;">Initialize Your Cosmic Link</h3>
+            
+            <div class="form-group">
+                <label>Your Name</label>
+                <input type="text" class="form-control" placeholder="Enter your full name">
+            </div>
+            
+            <div class="form-group">
+                <label>Language</label>
+                <select class="form-control">
+                    <option>English</option>
+                    <option>Hindi (हिंदी)</option>
+                    <option>Tamil (தமிழ்)</option>
+                </select>
+            </div>
+
+            <label style="display: block; margin-bottom: 12px; font-weight: 500; font-size: 0.9rem;">Select Session Duration</label>
+            <div class="plan-grid" id="planGrid">
+                <div class="plan-item active" data-price="0" data-time="2">
+                    <div class="plan-time">2 Min Trial</div>
+                    <div class="plan-price">FREE</div>
+                </div>
+                <div class="plan-item" data-price="49" data-time="5">
+                    <div class="plan-time">5 Min</div>
+                    <div class="plan-price">₹49</div>
+                </div>
+                <div class="plan-item" data-price="89" data-time="10">
+                    <div class="plan-time">10 Min</div>
+                    <div class="plan-price">₹89</div>
+                </div>
+                <div class="plan-item" data-price="189" data-time="30">
+                    <div class="plan-time">30 Min</div>
+                    <div class="plan-price">₹189</div>
+                </div>
+            </div>
+
+            <button id="checkoutBtn" class="btn btn-primary" style="width: 100%; font-size: 1.1rem; padding: 1.2rem;">
+                Start Free Session
+            </button>
+        </div>
+    </section>
+
+    <!-- 3. LIVE CHAT DEMO SECTION -->
+    <section id="demo" class="demo-section container reveal">
+        <div class="demo-grid">
+            <div class="ai-avatar">
+                <div class="avatar-img">🔮</div>
+                <h3>AI Astro Guru</h3>
+                <p style="color: var(--text-muted); font-size: 0.9rem;">Online • Ready to predict</p>
+            </div>
+            
+            <div class="chat-ui glass-card" style="padding:0;">
+                <div class="chat-header">
+                    <div style="font-weight: 600;">Live Cosmic Session</div>
+                    <div class="timer-badge">Trial Time Left: 02:00</div>
+                </div>
+                <div class="chat-body">
+                    <div class="msg msg-ai">Namaste! I am connected to the cosmic energy. Ask your question. ✨</div>
+                    <div class="msg msg-user">Will my career improve this year?</div>
+                    <div class="msg msg-ai">Based on your planetary transits, Jupiter is entering your 10th house of profession. Expect positive changes and a potential promotion around mid-year. Keep your focus strong! 🪐</div>
+                </div>
+                <div class="chat-footer">
+                    <input type="text" class="chat-input" placeholder="Type your question...">
+                    <button class="chat-send">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. WHY CHOOSE OUR AI ASTROLOGER -->
+    <section class="features-section container reveal">
+        <h2 class="section-title">Why Choose Our AI Astrologer</h2>
+        <div class="grid-3">
+            <div class="glass-card feature-card">
+                <div class="icon-box">🧠</div>
+                <h3>AI Powered Engine</h3>
+                <p>Advanced AI trained on ancient Vedic scriptures for precise calculations.</p>
+            </div>
+            <div class="glass-card feature-card">
+                <div class="icon-box">⏳</div>
+                <h3>2 Min Free Consult</h3>
+                <p>Test the cosmic intelligence completely free before you commit.</p>
+            </div>
+            <div class="glass-card feature-card">
+                <div class="icon-box">🌐</div>
+                <h3>Multi-Language Support</h3>
+                <p>Chat seamlessly in English, Hindi, and regional languages.</p>
+            </div>
+            <div class="glass-card feature-card">
+                <div class="icon-box">📜</div>
+                <h3>Authentic Knowledge</h3>
+                <p>Trained on authentic Vedic astrology, Parashara, and Bhrigu Nandi Nadi.</p>
+            </div>
+            <div class="glass-card feature-card">
+                <div class="icon-box">⚡</div>
+                <h3>Ultra-Fast Backend</h3>
+                <p>Powered by Cloudflare AI for zero-latency instant astrological replies.</p>
+</div>
+            <div class="glass-card feature-card">
+                <div class="icon-box">❤️</div>
+                <h3>Love Compatibility</h3>
+                <p>Deep insights into your relationship dynamics and future prospects.</p>
+            </div>
+            <div class="glass-card feature-card">
+                <div class="icon-box">💍</div>
+                <h3>Marriage Timing</h3>
+                <p>Accurate predictions regarding marriage timing and life partner traits.</p>
+            </div>
+            <div class="glass-card feature-card">
+                <div class="icon-box">💼</div>
+                <h3>Career Guidance</h3>
+                <p>Know the best periods for job changes, business, and promotions.</p>
+            </div>
+            <div class="glass-card feature-card">
+                <div class="icon-box">📅</div>
+                <h3>Daily Horoscope</h3>
+                <p>Get personalized daily insights based on real-time planetary transits.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. BENEFITS SECTION -->
+    <section class="benefits-section reveal">
+        <div class="container">
+            <h2 class="section-title">What Can You Ask the AI Astrologer?</h2>
+            <div class="grid-3">
+                <div class="glass-card feature-card">
+                    <h3>Love & Relationship Advice</h3>
+                    <p>Will my ex return? Is my current partner the right one?</p>
+                </div>
+                <div class="glass-card feature-card">
+                    <h3>Marriage Timing & Kundali</h3>
+                    <p>When will I get married? How is our Kundali matching?</p>
+                </div>
+                <div class="glass-card feature-card">
+                    <h3>Career & Job Predictions</h3>
+                    <p>When will I get a job? Should I do business or service?</p>
+                </div>
+                <div class="glass-card feature-card">
+                    <h3>Money & Business Growth</h3>
+                    <p>When will my financial situation improve? Is it a good time to invest?</p>
+                </div>
+                <div class="glass-card feature-card">
+                    <h3>Daily Horoscope Guidance</h3>
+<p>How will my day go today? What remedies should I follow?</p>
+                </div>
+                <div class="glass-card feature-card">
+                    <h3>Family & Personal Life</h3>
+                    <p>When will family disputes resolve? What about my health?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. SOCIAL PROOF SECTION -->
+    <section class="testimonials container reveal">
+        <h2 class="section-title">Trusted by Thousands</h2>
+        <div class="grid-3">
+            <div class="glass-card testi-card">
+                <div class="stars">⭐ ⭐ ⭐ ⭐ ⭐</div>
+                <p>"The AI astrologer gave me shockingly accurate insights about my career! It felt like talking to a highly experienced Guru."</p>
+                <h4>— Rahul Sharma</h4>
+            </div>
+            <div class="glass-card testi-card">
+                <div class="stars">⭐ ⭐ ⭐ ⭐ ⭐</div>
+                <p>"I asked about my marriage timing and the details provided regarding planetary transits were incredibly precise. Highly recommend!"</p>
+                <h4>— Priya Patel</h4>
+            </div>
+            <div class="glass-card testi-card">
+                <div class="stars">⭐ ⭐ ⭐ ⭐ ⭐</div>
+                <p>"The 2-minute trial hooked me. I ended up upgrading to 30 mins because the relationship compatibility insights were spot on."</p>
+                <h4>— Amit Desai</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. PRICING SECTION -->
+    <section class="pricing-recap container reveal">
+        <h2 class="section-title">Simple & Transparent Pricing</h2>
+        <ul class="price-list">
+            <li><span>2 Minutes</span> <span>Free Trial</span></li>
+            <li><span>5 Minutes</span> <span>₹49</span></li>
+            <li><span>10 Minutes</span> <span>₹89</span></li>
+            <li><span>30 Minutes</span> <span>₹189</span></li>
+        </ul>
+        <a href="#booking" class="btn btn-primary">Start Your Free Astrology Reading</a>
+    </section>
+<!-- 8. FAQ SECTION -->
+    <section class="faq-section reveal">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        
+        <div class="accordion">
+            <div class="accordion-header">
+                Is the AI astrologer accurate?
+                <span class="chevron">▼</span>
+            </div>
+            <div class="accordion-content">
+                <p>Yes, our AI is trained on vast amounts of authentic Vedic astrology texts, ensuring highly accurate and personalized insights based on planetary alignments.</p>
+            </div>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-header">
+                How does AI Vedic astrology work?
+                <span class="chevron">▼</span>
+            </div>
+            <div class="accordion-content">
+                <p>It analyzes your birth details (if provided) and exact planetary positions using an ultra-fast backend to generate real-time astrological predictions.</p>
+            </div>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-header">
+                Is my chat private?
+                <span class="chevron">▼</span>
+            </div>
+            <div class="accordion-content">
+                <p>Absolutely. Your chat sessions and personal details are fully encrypted and kept 100% strictly confidential.</p>
+            </div>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-header">
+                Do I need my birth details?
+                <span class="chevron">▼</span>
+            </div>
+            <div class="accordion-content">
+                <p>While having exact birth details (date, time, place) provides the most accurate Kundali reading, you can still ask general Prashna (Horary) questions without them.</p>
+            </div>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-header">
+                Can I upgrade during chat?
+                <span class="chevron">▼</span>
+            </div>
+            <div class="accordion-content">
+                <p>Yes! If you start with a 2-minute free trial and wish to continue, you can seamlessly add more time directly from the chat interface.</p>
+            </div>
+        </div>
+ </section>
+
+    <!-- 9. FINAL CTA SECTION -->
+    <section class="final-cta container reveal">
+        <h2>Your Cosmic Answers Are Waiting</h2>
+        <p>Start your free AI Vedic astrology reading now and discover what the stars reveal about your future.</p>
+        <a href="#booking" class="btn btn-primary" style="font-size: 1.2rem; padding: 1.2rem 3rem;">Start Free Astrology Chat</a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="#">About Stellar Insight</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="https://stellarinsight.in/ai-vedic-astrologer-live-chat/">Live AI Chat</a>
+            </div>
+            <p>&copy; 2025 Stellar Insight. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            
+            // --- SCROLL REVEAL ANIMATIONS ---
+            const revealElements = document.querySelectorAll('.reveal');
+            
+            const revealObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if(entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            revealElements.forEach(el => revealObserver.observe(el));
+
+
+            // --- DYNAMIC PRICING SELECTOR ---
+            const planItems = document.querySelectorAll('.plan-item');
+            const checkoutBtn = document.getElementById('checkoutBtn');
+
+            planItems.forEach(item => {
+                item.addEventListener('click', () => {
+                    // Remove active from all
+                    planItems.forEach(p => p.classList.remove('active'));
+                    // Add active to clicked
+                    item.classList.add('active');
+                    
+                    // Update Button Text
+                    const price = item.getAttribute('data-price');
+                    
+                    if(price === "0") {
+                        checkoutBtn.innerText = "Start Free Session";
+                    } else {
+                        checkoutBtn.innerText = `Pay ₹${price} & Start Session`;
+                    }
+                });
+            });
+
+            // --- REDIRECT TO URL ON CHECKOUT ---
+            checkoutBtn.addEventListener('click', () => {
+                // Redirect user to the target URL when they submit the form
+                window.location.href = "https://stellarinsight.in/ai-vedic-astrologer-live-chat/";
+            });
+
+            // --- FAQ ACCORDION ---
+            const accordions = document.querySelectorAll('.accordion');
+            
+            accordions.forEach(acc => {
+                const header = acc.querySelector('.accordion-header');
+                header.addEventListener('click', () => {
+                    // Close all others
+                    accordions.forEach(otherAcc => {
+                        if(otherAcc !== acc) {
+                            otherAcc.classList.remove('active');
+                        }
+                    });
+                    // Toggle current
+                    acc.classList.toggle('active');
+                });
+            });
+
+            // Smooth Scroll for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+
+anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+
